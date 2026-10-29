@@ -1,0 +1,66 @@
+.sunlectric-inner-hero { align-items: center; background: linear-gradient(90deg, rgb(2 15 24 / 86%), rgb(2 15 24 / 48%)), url("images/solar-rooftop-evening.jpeg") center / cover; color: #fff; display: flex; min-height: 560px; padding: 96px 28px; }
+.sunlectric-inner-hero--contact { background-image: linear-gradient(90deg, rgb(2 15 24 / 88%), rgb(2 15 24 / 53%)), url("images/commercial-solar-rooftop.jpeg"); }
+.sunlectric-inner-hero__inner { margin: auto; max-width: 1200px; width: 100%; }
+.sunlectric-inner-hero h1 { color: var(--sunlectric-gold); font-size: clamp(3.3rem, 6vw, 5.7rem); font-weight: 900; line-height: .99; margin: 0 0 26px; max-width: 900px; text-transform: uppercase; }
+.sunlectric-inner-hero p:not(.sunlectric-eyebrow) { color: #fff; font-size: 19px; line-height: 1.6; max-width: 680px; }
+.sunlectric-page-intro { display: grid; grid-template-columns: 1fr 1fr; }
+.sunlectric-page-intro__copy { align-content: center; padding: clamp(60px, 7vw, 110px); }
+.sunlectric-page-intro h2, .sunlectric-values h2, .sunlectric-contact-form h2, .sunlectric-contact-aside h2, .sunlectric-page-outro h2 { color: var(--sunlectric-ink); font-size: clamp(2rem, 3.1vw, 3.2rem); font-weight: 900; line-height: 1.08; margin: 0 0 24px; text-transform: uppercase; }
+.sunlectric-page-intro p:not(.sunlectric-eyebrow) { color: var(--sunlectric-muted); font-size: 17px; margin: 0 0 20px; }
+.sunlectric-page-intro .sunlectric-link-button { margin-top: 16px; }
+.sunlectric-page-intro figure { margin: 0; min-height: 560px; }
+.sunlectric-page-intro img { display: block; height: 100%; min-height: 560px; object-fit: cover; width: 100%; }
+.sunlectric-values { background: var(--sunlectric-paper); padding: 90px 26px; }
+.sunlectric-values__inner { margin: auto; max-width: 1180px; }
+.sunlectric-values h2 { margin-bottom: 45px; }
+.sunlectric-values__grid { display: grid; gap: 28px; grid-template-columns: repeat(3, 1fr); }
+.sunlectric-values article { border-top: 4px solid var(--sunlectric-orange); padding: 26px 14px 0; }
+.sunlectric-values article span { color: var(--sunlectric-orange); font-size: 13px; font-weight: 900; letter-spacing: .12em; }
+.sunlectric-values h3 { color: var(--sunlectric-ink); font-size: 21px; font-weight: 900; margin: 12px 0; text-transform: uppercase; }
+.sunlectric-values article p { color: var(--sunlectric-muted); margin: 0; }
+.sunlectric-inner-photo { align-items: center; background: linear-gradient(90deg, rgb(2 15 24 / 82%), rgb(2 15 24 / 44%)), url("images/commercial-solar-rooftop.jpeg") center / cover; display: flex; min-height: 500px; padding: 90px 28px; }
+.sunlectric-inner-photo > div { margin: auto; max-width: 1180px; width: 100%; }
+.sunlectric-inner-photo h2 { color: var(--sunlectric-gold); font-size: clamp(2.5rem, 4.4vw, 4.6rem); font-weight: 900; line-height: 1.05; margin: 0; max-width: 790px; text-transform: uppercase; }
+.sunlectric-page-outro { background: var(--sunlectric-navy); color: #fff; padding: 80px 25px; text-align: center; }
+.sunlectric-page-outro > div { margin: auto; max-width: 900px; }
+.sunlectric-page-outro h2 { color: #fff; }
+.sunlectric-page-outro p { color: #e2e8ed; margin: 0 auto 32px; }
+.sunlectric-contact-layout { background: var(--sunlectric-paper); padding: 88px 26px; }
+.sunlectric-contact-layout__inner { display: grid; gap: clamp(30px, 5vw, 80px); grid-template-columns: minmax(0, 1.3fr) minmax(280px, .7fr); margin: auto; max-width: 1180px; }
+.sunlectric-contact-form { background: #fff; border-top: 5px solid var(--sunlectric-orange); padding: clamp(30px, 5vw, 56px); }
+.sunlectric-contact-form > p:not(.sunlectric-eyebrow), .sunlectric-contact-aside p:not(.sunlectric-eyebrow) { color: var(--sunlectric-muted); }
+.sunlectric-contact-form form { display: grid; gap: 20px; margin-top: 34px; }
+.sunlectric-form-grid { display: grid; gap: 20px; grid-template-columns: 1fr 1fr; }
+.sunlectric-contact-form label { color: var(--sunlectric-ink); display: grid; font-size: 13px; font-weight: 900; gap: 8px; text-transform: uppercase; }
+.sunlectric-contact-form input, .sunlectric-contact-form textarea { background: #f7f9fa; border: 1px solid #cbd5db; border-radius: 0; box-sizing: border-box; color: var(--sunlectric-ink); font: 16px/1.4 Arial, sans-serif; padding: 13px 14px; width: 100%; }
+.sunlectric-contact-form input:focus, .sunlectric-contact-form textarea:focus { border-color: var(--sunlectric-orange); outline: 2px solid rgb(245 154 50 / 25%); }
+.sunlectric-contact-form button { cursor: pointer; justify-self: start; }
+.sunlectric-contact-form button:disabled { cursor: not-allowed; opacity: .68; }
+.sunlectric-form-honeypot { left: -10000px; position: absolute; }
+.sunlectric-form-note { background: #fff4df; border-left: 3px solid var(--sunlectric-orange); padding: 12px 16px; }
+.sunlectric-form-message { background: #e9f6e9; border-left: 3px solid #328541; padding: 12px 16px; }
+.sunlectric-form-message--error { background: #fff2ed; border-color: #b74c35; }
+.sunlectric-contact-aside { align-self: start; padding: 36px 0; }
+.sunlectric-contact-aside ul { border-top: 1px solid #bbc8cf; color: var(--sunlectric-ink); font-weight: 800; list-style: none; margin: 30px 0; padding: 16px 0 0; }
+.sunlectric-contact-aside li { padding: 8px 0; }
+.sunlectric-contact-aside li::before { color: var(--sunlectric-orange); content: '→'; margin-right: 10px; }
+.sunlectric-contact-aside > a { color: var(--sunlectric-ink); font-weight: 800; overflow-wrap: anywhere; }
+.sunlectric-map { background: #edf2f4; padding: 60px 26px; }
+.sunlectric-map__inner { align-items: center; display: grid; gap: clamp(24px, 4vw, 56px); grid-template-columns: minmax(260px, .7fr) minmax(0, 1.3fr); margin: auto; max-width: 1180px; }
+.sunlectric-map__copy h2 { color: var(--sunlectric-ink); font-size: clamp(2rem, 3vw, 3rem); font-weight: 900; line-height: 1.1; margin: 0 0 20px; text-transform: uppercase; }
+.sunlectric-map__copy p:not(.sunlectric-eyebrow) { color: var(--sunlectric-muted); margin: 0 0 22px; }
+.sunlectric-map__copy > a { border-bottom: 2px solid var(--sunlectric-orange); color: var(--sunlectric-ink); font-size: 13px; font-weight: 900; text-decoration: none; text-transform: uppercase; }
+.sunlectric-map__copy small { color: var(--sunlectric-muted); display: block; margin-top: 32px; }
+.sunlectric-map__copy small a { color: inherit; }
+.sunlectric-map iframe { background: #dce5e9; border: 0; display: block; height: 330px; width: 100%; }
+.sunlectric-footer--with-map { padding: 0; }
+.sunlectric-footer--with-map .sunlectric-footer__inner { padding: 54px 25px; }
+.sunlectric-map--footer { background: #071b2b; }
+.sunlectric-map--footer .sunlectric-eyebrow { color: var(--sunlectric-orange); }
+.sunlectric-map--footer .sunlectric-map__copy h2 { color: #fff; }
+.sunlectric-map--footer .sunlectric-map__copy p:not(.sunlectric-eyebrow), .sunlectric-map--footer .sunlectric-map__copy small, .sunlectric-map--footer .sunlectric-map__copy > a { color: #d5e0e7; }
+.sunlectric-preview-switch { align-items: center; display: flex; flex-wrap: wrap; gap: 12px; margin-top: 28px; }
+.sunlectric-preview-switch a { border: 1px solid #fff9; color: #fff; font-size: 12px; font-weight: 900; padding: 9px 12px; text-decoration: none; text-transform: uppercase; }
+.sunlectric-preview-switch a[aria-current="page"] { background: var(--sunlectric-orange); border-color: var(--sunlectric-orange); color: #102538; }
+@media (max-width: 780px) { .sunlectric-page-intro, .sunlectric-contact-layout__inner, .sunlectric-map__inner { grid-template-columns: 1fr; } .sunlectric-page-intro figure, .sunlectric-page-intro img { min-height: 360px; } .sunlectric-values__grid { grid-template-columns: 1fr; gap: 28px; } .sunlectric-contact-aside { padding: 0; } }
+@media (max-width: 640px) { .sunlectric-inner-hero { min-height: 470px; padding: 70px 22px; } .sunlectric-inner-hero h1 { font-size: clamp(2.6rem, 10.5vw, 3.8rem); } .sunlectric-inner-hero p:not(.sunlectric-eyebrow) { font-size: 16px; } .sunlectric-page-intro__copy { padding: 62px 25px; } .sunlectric-values, .sunlectric-contact-layout, .sunlectric-map { padding: 58px 20px; } .sunlectric-form-grid { grid-template-columns: 1fr; } .sunlectric-contact-form { padding: 28px 22px; } .sunlectric-inner-photo { min-height: 400px; padding: 60px 22px; } .sunlectric-map iframe { height: 280px; } .sunlectric-footer--with-map .sunlectric-footer__inner { padding: 45px 20px; } }

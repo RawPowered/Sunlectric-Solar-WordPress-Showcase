@@ -1,0 +1,159 @@
+body { margin: 0; }
+:root {
+  --sunlectric-navy: #061b2c;
+  --sunlectric-ink: #092239;
+  --sunlectric-muted: #536777;
+  --sunlectric-gold: #ffc400;
+  --sunlectric-orange: #f59a32;
+  --sunlectric-blue: #20b6db;
+  --sunlectric-paper: #f7f5ef;
+  --sunlectric-line: #e8e8e4;
+}
+
+html { scroll-behavior: smooth; }
+body { background: #fff; color: var(--sunlectric-ink); font-family: Arial, "Helvetica Neue", sans-serif; font-size: 16px; line-height: 1.7; }
+a { color: inherit; }
+.wp-site-blocks { overflow: clip; }
+.sunlectric-header { background: #fff; box-shadow: 0 1px 0 #e8e8e4; position: sticky; top: 0; z-index: 1000; }
+.sunlectric-header__inner { align-items: center; display: grid; grid-template-columns: 1fr auto 1fr; gap: 28px; margin: 0 auto; max-width: 1200px; min-height: 78px; padding: 0 38px; position: relative; transition: min-height .24s ease; }
+.sunlectric-brand { align-items: center; display: flex; grid-column: 2; justify-self: center; text-decoration: none; white-space: nowrap; }
+.sunlectric-brand__name { background: linear-gradient(90deg, #db690d 0%, #f4a800 56%, #f7a35c 100%); background-clip: text; color: transparent; display: flex; flex-direction: column; font-size: 29px; font-weight: 500; letter-spacing: .055em; line-height: .85; text-transform: uppercase; transition: font-size .24s ease; }
+.sunlectric-brand__descriptor { align-self: flex-end; color: #d7771b; font-size: 10px; font-weight: 800; letter-spacing: .48em; line-height: 1.3; margin-top: 5px; max-height: 14px; opacity: 1; overflow: hidden; transform: translateY(0); transition: max-height .24s ease, margin-top .24s ease, opacity .18s ease, transform .24s ease; }
+.sunlectric-header.is-compact { box-shadow: 0 3px 18px rgb(6 27 44 / 14%); }
+.sunlectric-header.is-compact .sunlectric-header__inner { min-height: 60px; }
+.sunlectric-header.is-compact .sunlectric-brand__name { font-size: 22px; }
+.sunlectric-header.is-compact .sunlectric-brand__descriptor { margin-top: 0; max-height: 0; opacity: 0; transform: translateY(-4px); }
+main [id] { scroll-margin-top: 84px; }
+@media (prefers-reduced-motion: reduce) { .sunlectric-header__inner, .sunlectric-brand__name, .sunlectric-brand__descriptor { transition: none; } }
+.sunlectric-nav-left, .sunlectric-nav-right { align-items: center; display: flex; gap: clamp(17px, 2vw, 31px); white-space: nowrap; }
+.sunlectric-nav-left { grid-column: 1; justify-content: flex-end; }
+.sunlectric-nav-right { grid-column: 3; justify-content: flex-start; }
+.sunlectric-nav-left a, .sunlectric-nav-right a, .sunlectric-nav__mobile-links a { color: #142638; font-size: 13px; font-weight: 800; letter-spacing: .025em; text-decoration: none; text-transform: uppercase; }
+.sunlectric-nav-left a:hover, .sunlectric-nav-right a:hover, .sunlectric-nav__mobile-links a:hover { color: var(--sunlectric-orange); }
+.sunlectric-nav__mobile { display: none; position: relative; }
+.sunlectric-nav__mobile summary { color: var(--sunlectric-ink); cursor: pointer; font-size: 25px; line-height: 1; list-style: none; }
+.sunlectric-nav__mobile summary::-webkit-details-marker { display: none; }
+.sunlectric-nav__mobile-links { background: #fff; border-top: 3px solid var(--sunlectric-orange); box-shadow: 0 14px 35px #061b2c33; min-width: 210px; padding: 9px 16px; position: absolute; right: 0; top: calc(100% + 18px); z-index: 9; }
+.sunlectric-nav__mobile-links a { display: block; padding: 10px 2px; }
+@media (max-width: 1100px) { .sunlectric-header__inner { display: flex; justify-content: space-between; } .sunlectric-nav-left, .sunlectric-nav-right { display: none; } .sunlectric-nav__mobile { display: block; margin-left: auto; } .sunlectric-brand { left: 50%; position: absolute; transform: translateX(-50%); } }
+.sunlectric-button a, .sunlectric-button { background: var(--sunlectric-orange); border: 3px solid var(--sunlectric-blue); border-radius: 2px; color: #fff; display: inline-block; font-size: 14px; font-weight: 800; letter-spacing: .015em; line-height: 1.2; padding: 13px 23px; text-decoration: none; text-transform: uppercase; }
+.sunlectric-hero { align-items: center; background-image: linear-gradient(90deg, rgb(2 15 24 / 82%) 0%, rgb(2 15 24 / 63%) 53%, rgb(2 15 24 / 49%) 100%), url("images/commercial-solar-rooftop.jpeg"); background-position: center; background-size: cover; color: #fff; display: flex; min-height: 775px; }
+.sunlectric-hero__inner { margin: 0 auto; max-width: 1240px; padding: 88px 22px 94px; width: 100%; }
+.sunlectric-hero__intro { display: grid; gap: 54px; grid-template-columns: 1fr 1fr; margin-bottom: 56px; }
+.sunlectric-hero__intro p { color: #fff; font-size: 16px; line-height: 1.75; margin: 0; max-width: 580px; }
+.sunlectric-hero__intro-action { align-items: flex-start; display: flex; flex-direction: column; gap: 22px; }
+.sunlectric-hero__main { max-width: 830px; }
+.sunlectric-eyebrow { color: var(--sunlectric-orange); font-size: 14px; font-weight: 900; letter-spacing: .12em; line-height: 1.45; margin: 0 0 22px; text-transform: uppercase; }
+.sunlectric-hero h1 { color: var(--sunlectric-gold); font-size: clamp(3.1rem, 6vw, 5.2rem); font-weight: 900; letter-spacing: -.018em; line-height: .98; margin: 0 0 25px; max-width: 12ch; text-transform: uppercase; }
+.sunlectric-hero__sub { color: #fff; font-size: 18px; line-height: 1.65; margin: 0; max-width: 700px; }
+.sunlectric-section { display: grid; grid-template-columns: 1fr 1fr; }
+.sunlectric-section__copy { align-content: center; display: grid; justify-items: center; padding: clamp(50px, 6vw, 92px) clamp(30px, 6vw, 100px); text-align: center; }
+.sunlectric-section h2, .sunlectric-band h2, .sunlectric-callout h2 { color: var(--sunlectric-ink); font-size: clamp(2rem, 3.15vw, 3rem); font-weight: 900; letter-spacing: .025em; line-height: 1.1; margin: 0 0 22px; text-transform: uppercase; }
+.sunlectric-section h3 { color: var(--sunlectric-ink); font-size: 15px; font-weight: 900; line-height: 1.5; margin: 0 0 26px; text-transform: uppercase; }
+.sunlectric-section p, .sunlectric-band p { color: var(--sunlectric-muted); margin: 0 0 28px; max-width: 540px; }
+.sunlectric-section__image { min-height: 470px; }
+.sunlectric-section__image img { display: block; height: 100%; min-height: 470px; object-fit: cover; width: 100%; }
+.sunlectric-link-button { border: 2px solid var(--sunlectric-ink); color: var(--sunlectric-ink); display: inline-block; font-size: 13px; font-weight: 900; letter-spacing: .025em; padding: 11px 18px; text-decoration: none; text-transform: uppercase; }
+.sunlectric-link-button:hover { background: var(--sunlectric-ink); color: #fff; }
+.sunlectric-band { background: var(--sunlectric-navy); color: #fff; padding: 76px 26px 82px; text-align: center; }
+.sunlectric-band h2 { color: #fff; margin-bottom: 15px; }
+.sunlectric-band h3 { color: var(--sunlectric-gold); font-size: 15px; font-weight: 900; letter-spacing: .06em; margin: 0 auto 26px; text-transform: uppercase; }
+.sunlectric-band p { color: #e2e8ed; margin-left: auto; margin-right: auto; max-width: 920px; }
+.sunlectric-band .sunlectric-link-button { border-color: #fff; color: #fff; }
+.sunlectric-band .sunlectric-link-button:hover { background: #fff; color: var(--sunlectric-navy); }
+.sunlectric-wide-photo { background: linear-gradient(90deg, rgb(3 14 22 / 74%), rgb(3 14 22 / 48%)), url("images/solar-logistics-campus.jpeg") center 54% / cover; color: #fff; padding: 110px 24px; text-align: center; }
+.sunlectric-wide-photo h2 { color: var(--sunlectric-gold); font-size: clamp(2.2rem, 4vw, 3.7rem); font-weight: 900; line-height: 1.08; margin: 0 auto 20px; max-width: 800px; text-transform: uppercase; }
+.sunlectric-wide-photo p { color: #fff; font-size: 18px; margin: 0 auto 30px; max-width: 780px; }
+.sunlectric-paper { background: var(--sunlectric-paper); padding: 76px 24px; }
+.sunlectric-paper__inner { margin: 0 auto; max-width: 1160px; }
+.sunlectric-paper h2 { color: var(--sunlectric-ink); font-size: clamp(2rem, 3vw, 2.8rem); font-weight: 900; line-height: 1.12; margin: 0 auto 38px; max-width: 850px; text-align: center; text-transform: uppercase; }
+.sunlectric-paper__grid { display: grid; gap: 24px; grid-template-columns: repeat(3, 1fr); }
+.sunlectric-service { border-top: 4px solid var(--sunlectric-orange); padding: 24px 18px; }
+.sunlectric-service h3 { color: var(--sunlectric-ink); font-size: 17px; font-weight: 900; margin: 0 0 14px; text-transform: uppercase; }
+.sunlectric-service p { color: var(--sunlectric-muted); margin: 0; }
+.sunlectric-callout { background: var(--sunlectric-navy); color: #fff; padding: 58px 24px; text-align: center; }
+.sunlectric-callout h2 { color: #fff; margin-bottom: 14px; }
+.sunlectric-callout p { color: #e2e8ed; margin: 0 auto 28px; }
+.sunlectric-footer { background: #292929; color: #fff; padding: 54px 25px; }
+.sunlectric-footer__inner { align-items: center; display: flex; justify-content: space-between; margin: 0 auto; max-width: 1200px; }
+.sunlectric-footer p { color: #bfc2c4; font-size: 13px; margin: 0; }
+.sunlectric-footer .sunlectric-brand__name { font-size: 22px; }
+.sunlectric-footer .sunlectric-brand { grid-column: auto; left: auto; position: static; transform: none; }
+
+@media (max-width: 900px) {
+  .sunlectric-header__inner { min-height: 72px; padding: 0 20px; }
+  .sunlectric-hero { min-height: 690px; }
+  .sunlectric-hero__inner { padding: 72px 28px 76px; }
+  .sunlectric-hero__intro { gap: 28px; }
+  .sunlectric-hero h1 { font-size: clamp(3rem, 7vw, 4.7rem); }
+  .sunlectric-section__copy { padding: 48px 30px; }
+}
+@media (max-width: 640px) {
+  .sunlectric-header__inner { min-height: 68px; padding: 0 18px; }
+  .sunlectric-brand__name { font-size: 22px; }
+  .sunlectric-header.is-compact .sunlectric-header__inner { min-height: 56px; }
+  .sunlectric-header.is-compact .sunlectric-brand__name { font-size: 18px; }
+
+  .sunlectric-hero { min-height: 650px; }
+  .sunlectric-hero__inner { padding: 58px 22px 66px; }
+  .sunlectric-hero__intro { display: block; margin-bottom: 40px; text-align: center; }
+  .sunlectric-hero__intro p { font-size: 14px; }
+  .sunlectric-hero__intro-action { align-items: center; margin-top: 21px; }
+  .sunlectric-hero .sunlectric-eyebrow { margin-bottom: 16px; }
+  .sunlectric-hero h1 { font-size: clamp(2.55rem, 11.2vw, 3.4rem); line-height: 1.02; margin-left: auto; margin-right: auto; max-width: 12ch; text-align: center; }
+  .sunlectric-hero__sub { font-size: 15px; text-align: center; }
+  .sunlectric-section { grid-template-columns: 1fr; }
+  .sunlectric-section--reverse .sunlectric-section__image { order: 2; }
+  .sunlectric-section__image, .sunlectric-section__image img { min-height: 290px; }
+  .sunlectric-section__copy { min-height: 340px; padding: 52px 25px; }
+  .sunlectric-band { padding: 59px 24px; }
+  .sunlectric-wide-photo { padding: 82px 22px; }
+  .sunlectric-paper { padding: 58px 20px; }
+  .sunlectric-paper__grid { grid-template-columns: 1fr; gap: 12px; }
+  .sunlectric-service { padding: 20px 16px; }
+  .sunlectric-footer__inner { display: grid; grid-template-columns: minmax(0, 1fr); gap: 12px; justify-content: initial; justify-items: center; text-align: center; }
+  .sunlectric-footer .sunlectric-brand { margin-bottom: 8px; }
+  .sunlectric-footer p { max-width: 32ch; }
+}
+
+.sunlectric-faq { background: #eef3f5; padding: 76px 24px 85px; }
+.sunlectric-faq__inner, .sunlectric-guides__inner { margin: auto; max-width: 1160px; }
+.sunlectric-faq h2, .sunlectric-guides h2 { color: var(--sunlectric-ink); font-size: clamp(2rem, 3.15vw, 3rem); font-weight: 900; line-height: 1.1; margin: 0 0 34px; text-align: center; text-transform: uppercase; }
+.sunlectric-faq details { border-bottom: 1px solid #bfccd3; max-width: 860px; margin: auto; }
+.sunlectric-faq summary { color: var(--sunlectric-ink); cursor: pointer; font-size: 17px; font-weight: 800; list-style: none; padding: 18px 0; }
+.sunlectric-faq summary::-webkit-details-marker { display: none; }
+.sunlectric-faq summary::after { color: var(--sunlectric-orange); content: '+'; float: right; font-size: 24px; line-height: 1; }
+.sunlectric-faq details[open] summary::after { content: '−'; }
+.sunlectric-faq details p { color: var(--sunlectric-muted); margin: 0; padding: 0 28px 22px 0; }
+.sunlectric-guides { background: #fff; padding: 75px 24px 85px; }
+.sunlectric-guides__grid { display: grid; gap: 24px; grid-template-columns: repeat(3,1fr); }
+.sunlectric-guides article { border-top: 4px solid var(--sunlectric-orange); padding: 20px 8px; }
+.sunlectric-guides h3 { color: var(--sunlectric-ink); font-size: 17px; font-weight: 900; line-height: 1.3; margin: 0 0 13px; text-transform: uppercase; }
+.sunlectric-guides p { color: var(--sunlectric-muted); margin: 0; }
+@media (max-width: 640px) { .sunlectric-faq, .sunlectric-guides { padding: 58px 20px; } .sunlectric-guides__grid { grid-template-columns: 1fr; gap: 10px; } }
+.sunlectric-mission { background: linear-gradient(90deg, rgb(2 15 24 / 85%), rgb(2 15 24 / 58%)), url("images/solar-rooftop-evening.jpeg") center / cover; color: #fff; min-height: 470px; padding: 90px 28px; }
+.sunlectric-mission__inner { margin: auto; max-width: 1100px; }
+.sunlectric-mission h2 { color: var(--sunlectric-gold); font-size: clamp(2.4rem, 4vw, 3.8rem); font-weight: 900; line-height: 1.08; margin: 0 0 24px; max-width: 660px; text-transform: uppercase; }
+.sunlectric-mission p:not(.sunlectric-eyebrow) { color: #fff; font-size: 18px; max-width: 790px; }
+.sunlectric-mission__steps { border-top: 1px solid #ffffff80; display: flex; gap: 36px; margin-top: 46px; padding-top: 22px; text-transform: uppercase; }
+.sunlectric-mission__steps span { color: #fff; font-size: 13px; font-weight: 900; letter-spacing: .04em; }
+.sunlectric-mission .sunlectric-mission__more { border-color: #fff; color: #fff; margin-top: 30px; }
+.sunlectric-mission .sunlectric-mission__more:hover { background: #fff; color: var(--sunlectric-navy); }
+.sunlectric-contexts { background: #fff; padding: 76px 24px 84px; }
+.sunlectric-contexts__inner { margin: auto; max-width: 1180px; }
+.sunlectric-contexts h2 { color: var(--sunlectric-ink); font-size: clamp(2rem, 3.15vw, 3rem); font-weight: 900; line-height: 1.1; margin: 0 0 16px; text-transform: uppercase; }
+.sunlectric-contexts__intro { color: var(--sunlectric-muted); margin: 0 0 34px; }
+.sunlectric-contexts__grid { display: grid; gap: 18px; grid-template-columns: repeat(3,1fr); }
+.sunlectric-contexts figure { margin: 0; }
+.sunlectric-contexts img { display: block; height: 230px; object-fit: cover; width: 100%; }
+.sunlectric-contexts figcaption { border-bottom: 3px solid var(--sunlectric-orange); color: var(--sunlectric-ink); font-size: 15px; font-weight: 900; padding: 14px 0; text-transform: uppercase; }
+@media (max-width: 640px) { .sunlectric-mission { min-height: 0; padding: 70px 22px; } .sunlectric-mission__steps { display: grid; gap: 13px; margin-top: 32px; } .sunlectric-contexts { padding: 58px 20px; } .sunlectric-contexts__grid { grid-template-columns: 1fr; } .sunlectric-contexts img { height: 215px; } }
+.preview-contact { background: #f7f5ef; min-height: 65vh; padding: 90px 22px; }
+.preview-contact__inner { margin: auto; max-width: 760px; }
+.preview-contact h1 { color: #092239; font-size: clamp(2.4rem, 5vw, 4rem); line-height: 1.05; margin: 0 0 20px; text-transform: uppercase; }
+.preview-contact p { color: #536777; }
+.preview-form { background: #fff; border-top: 5px solid #f59a32; margin-top: 34px; padding: 30px; }
+.preview-form fieldset { border: 0; padding: 0; }
+.preview-form label { color: #092239; display: block; font-weight: 800; margin-bottom: 18px; }
+.preview-form input, .preview-form textarea { border: 1px solid #cfd7db; display: block; margin-top: 6px; padding: 12px; width: 100%; }
+.preview-form button { cursor: default; opacity: .7; }

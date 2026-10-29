@@ -1,0 +1,28 @@
+# No media examples or generated packages are stored in this showcase.
+*.mp4
+*.mov
+*.m4v
+*.avi
+*.mkv
+*.webm
+*.wmv
+*.mpeg
+*.mpg
+*.ogv
+*.3gp
+*.sql
+*.sql.gz
+*.zip
+**/wp-config.php
+**/uploads/
+.env
+.env.*
+*.bak
+output/
+local-*/
+.playwright-cli/
+.DS_Store
+Thumbs.db
+
+# The installable theme belongs only in the private repository.
+/wp-content/
