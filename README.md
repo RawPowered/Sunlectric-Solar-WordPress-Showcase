@@ -11,11 +11,11 @@
   <a href="https://github.com/RawPowered"><strong>Contact</strong></a>
 </p>
 
-<p align="center">A commercial solar WordPress theme by <strong>Joseph Edwards (RawPowered)</strong>. A photographic customer experience meets a custom visual studio for the homepage hero.</p>
+<p align="center">A commercial solar WordPress theme by <strong>Joseph Edwards (RawPowered)</strong>. Its bundled Hero Studio gives site owners direct control over the homepage's slides, media, copy, design, and motion.</p>
 
 <table>
   <tr>
-    <td width="33%" align="center"><strong>Visual hero editing</strong><br>Slides, media, text, buttons, and motion</td>
+    <td width="33%" align="center"><strong>Bundled Hero Studio</strong><br>No separate slider plugin needed for the theme homepage</td>
     <td width="33%" align="center"><strong>Responsive presentation</strong><br>Desktop, mobile, one-page, and multi-page</td>
     <td width="33%" align="center"><strong>Theme-wide controls</strong><br>Fonts, colors, logos, header, contact, and map</td>
   </tr>
@@ -59,19 +59,34 @@ The captures above document the repository's responsive HTML representation of t
 
 <p align="center"><small>Editor layout illustration. This is not a WordPress Admin screenshot.</small></p>
 
-**Appearance → Hero Studio** manages the bundled WordPress homepage hero. The editor supports up to eight slides; three are enabled in the starter setup.
+### A built-in visual editor for the most visible part of the site
 
-| Control | Capability |
+**Appearance → Hero Studio** manages the theme's bundled homepage hero. Site owners can build an image or video slideshow with tailored copy and calls to action, then see the result before publishing. These controls ship with Sunlectric. The bundled homepage does not need a separately purchased slider or an additional slider plugin to use them.
+
+<table>
+  <tr>
+    <td width="33%" align="center"><strong>Build the story</strong><br>Up to eight slide slots, with three enabled in the starter setup</td>
+    <td width="33%" align="center"><strong>Shape the look</strong><br>Media, overlays, typography, layout, and two buttons per slide</td>
+    <td width="33%" align="center"><strong>Direct the motion</strong><br>Transitions, layer timing, autoplay, and playback controls</td>
+  </tr>
+</table>
+
+The workspace keeps the slide strip, live canvas, selected element controls, and motion timeline together. Click a layer to edit it; hide a layer without deleting its copy. Desktop and mobile views update as settings change, and full-screen preview plays the draft slideshow before it is saved.
+
+| Design area | Controls available now |
 | --- | --- |
-| Slide strip | Select, add, remove, and preview image or video slides |
-| Element inspector | Edit eyebrow, headline, supporting text, two buttons, and background separately |
-| Typography | Inherit theme or hero fonts, or choose a custom family. Set headline size for desktop and mobile, weight, line height, letter spacing, and color |
-| Media and overlay | Choose a still image or muted MP4/WebM video with image poster; adjust overlay type, color, and opacity |
-| Motion timeline | Set slide transitions, layer entry and exit styles, delay and duration; reset the stagger when needed |
-| Playback | Choose slideshow or a single static slide, autoplay timing, navigation, pause control, and subtle desktop parallax |
-| Preview | Check desktop, mobile, and full-screen playback before saving |
+| **Slides and media** | Add, remove, enable, and select slides. Use a still image or muted MP4/WebM video; the image serves as the video poster and fallback. |
+| **Copy and actions** | Edit the eyebrow, headline, supporting text, and two buttons for each slide. Set each button's label and destination; choose button shape, size, font, and colors in the shared hero design controls. |
+| **Type and color** | Inherit the site's fonts, use a hero font, or choose a slide font. Adjust headline scale for desktop and mobile, weight, line height, letter spacing, and text color. Set the hero's text alignment. |
+| **Overlays** | Choose gradient, even tint, vignette, or no overlay. Set overlay color and opacity to keep text readable over different imagery. |
+| **Transitions** | Crossfade, lateral slide, rise, soft zoom, curtain reveal, or instant, with a 300–2000 ms transition duration. |
+| **Layer animation** | Give the background and text layers their own entry and exit styles, start times, and durations. Drag timeline bars or enter values; reset the stagger when needed. |
+| **Playback** | Run a slideshow or one static image or video. Set a 4–12 second slide hold, autoplay, numbered bars/dots/arrows, a pause control, and subtle desktop parallax. |
+| **Preview and publish** | Review unsaved changes on desktop, mobile, or in a full-screen modal; save when the composition is ready. |
 
-Reduced-motion preferences suppress decorative transitions and automatic playback. The first hero slide is rendered in HTML before the front-end script runs. An Elementor-built homepage manages its own hero content.
+The first slide is server-rendered in HTML, so the headline and initial visual remain available before JavaScript runs. Reduced-motion preferences suppress decorative motion and automatic playback. The live editor is part of this theme; an Elementor-built homepage manages its own hero separately.
+
+Hero Studio is an actively developed part of Sunlectric. Future releases can expand the editor, while the table above describes the controls included in **v1.10.1**.
 
 ## Theme options
 
