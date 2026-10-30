@@ -25,6 +25,8 @@ This is a cleaned-up, rebranded showcase adaptation of the WordPress build used 
 
 ## What the design supports
 
+- A canvas Hero Studio for eight solar stories: click a layer to edit its words, font, color, and size, time each layer on the timeline, and reset to the default stagger.
+- Theme options for one-page or multi-page presentation, site fonts, brand colors, header and menu behavior, logos, the contact recipient, and a keyless map.
 - A commercial solar journey from facility needs and services to project planning and consultation.
 - Responsive one-page and multi-page layouts, with individual About Us and Contact Us pages.
 - A centered logo and split navigation that stay visible on scroll; the wordmark shrinks smoothly to Sunlectric-only text.
@@ -61,7 +63,7 @@ Set a **Contact form recipient** in the theme options to enable the WordPress fo
 
 ## Project status and previews
 
-The private theme includes the mobile footer correction and ongoing performance work. The case study shows the actual solar theme in static HTML and desktop/mobile screenshots. The showcase’s lime styling and glass icons are presentation elements outside the WordPress theme. No performance score is claimed for this release.
+Version 1.10.0 highlights the canvas Hero Studio and the theme options for type, color, header, contact, and map. The case study shows the actual solar theme in static HTML and desktop/mobile screenshots. The showcase’s lime styling and glass icons are presentation elements outside the WordPress theme. No performance score is claimed for this release.
 
 - [Case study page](index.html)
 - [One-page theme preview](demo.html)
