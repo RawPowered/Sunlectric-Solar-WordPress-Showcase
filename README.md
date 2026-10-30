@@ -63,6 +63,18 @@ The captures above document the repository's responsive HTML representation of t
 
 **Appearance → Hero Studio** manages the theme's bundled homepage hero. Site owners can build an image or video slideshow with tailored copy and calls to action, then see the result before publishing. These controls ship with Sunlectric. The bundled homepage does not need a separately purchased slider or an additional slider plugin to use them.
 
+<p align="center"><img src="assets/readme/hero-slider-study.gif" alt="Motion study cycling through the three Sunlectric starter slide concepts" width="100%"></p>
+
+<p align="center"><small>Motion study composed from the theme's bundled images and exact starter slide copy. It demonstrates a crossfade; it is not a recording of the hosted WordPress site or editor.</small></p>
+
+<table>
+  <tr>
+    <td width="33%" align="center"><a href="assets/readme/hero-slide-1.jpg"><img src="assets/readme/hero-slide-1.jpg" alt="First starter slide concept with a solar rooftop" width="100%"></a><br><strong>01 / Commercial solar</strong></td>
+    <td width="33%" align="center"><a href="assets/readme/hero-slide-2.jpg"><img src="assets/readme/hero-slide-2.jpg" alt="Second starter slide concept with a logistics facility" width="100%"></a><br><strong>02 / Built around your site</strong></td>
+    <td width="33%" align="center"><a href="assets/readme/hero-slide-3.jpg"><img src="assets/readme/hero-slide-3.jpg" alt="Third starter slide concept with an evening solar rooftop" width="100%"></a><br><strong>03 / From plan to power</strong></td>
+  </tr>
+</table>
+
 <table>
   <tr>
     <td width="33%" align="center"><strong>Build the story</strong><br>Up to eight slide slots, with three enabled in the starter setup</td>
@@ -89,6 +101,10 @@ The first slide is server-rendered in HTML, so the headline and initial visual r
 Hero Studio is an actively developed part of Sunlectric. Future releases can expand the editor, while the table above describes the controls included in **v1.10.1**.
 
 ## Theme options
+
+<p align="center"><img src="assets/readme/theme-settings-map.svg" alt="Illustrated guide to Sunlectric typography, brand colors, header and menu, and site options" width="100%"></p>
+
+<p align="center"><small>Control map derived from the v1.10.1 theme settings. It is an illustration, not a WordPress Admin screenshot.</small></p>
 
 | Area | Settings |
 | --- | --- |
