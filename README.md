@@ -55,23 +55,23 @@ The captures above document the repository's responsive HTML representation of t
 
 ## Hero Studio
 
-<p align="center"><img src="assets/readme/hero-studio.svg" alt="Illustrated Hero Studio editor with slide strip, live canvas, element controls, and timeline" width="100%"></p>
+<p align="center"><a href="docs/previews/admin/hero-studio-canvas.webp"><img src="docs/previews/admin/hero-studio-canvas.webp" alt="Sunlectric Hero Studio in WordPress showing the live slide canvas and editor navigation" width="100%"></a></p>
 
-<p align="center"><small>Editor layout illustration. This is not a WordPress Admin screenshot.</small></p>
+<p align="center"><small>Actual Hero Studio in the local WordPress theme lab, captured October 30, 2026.</small></p>
 
 ### A built-in visual editor for the most visible part of the site
 
 **Appearance → Hero Studio** manages the theme's bundled homepage hero. Site owners can build an image or video slideshow with tailored copy and calls to action, then see the result before publishing. These controls ship with Sunlectric. The bundled homepage does not need a separately purchased slider or an additional slider plugin to use them.
 
-<p align="center"><img src="assets/readme/hero-slider-study.gif" alt="Motion study cycling through the three Sunlectric starter slide concepts" width="100%"></p>
+<p align="center"><img src="docs/previews/admin/live-slider-preview.gif" alt="Preview cycling through three real Sunlectric slides captured from local WordPress" width="100%"></p>
 
-<p align="center"><small>Motion study composed from the theme's bundled images and exact starter slide copy. It demonstrates a crossfade; it is not a recording of the hosted WordPress site or editor.</small></p>
+<p align="center"><small>Three actual WordPress slide captures assembled with crossfades for README playback. This is not a continuous screen recording.</small></p>
 
 <table>
   <tr>
-    <td width="33%" align="center"><a href="assets/readme/hero-slide-1.jpg"><img src="assets/readme/hero-slide-1.jpg" alt="First starter slide concept with a solar rooftop" width="100%"></a><br><strong>01 / Commercial solar</strong></td>
-    <td width="33%" align="center"><a href="assets/readme/hero-slide-2.jpg"><img src="assets/readme/hero-slide-2.jpg" alt="Second starter slide concept with a logistics facility" width="100%"></a><br><strong>02 / Built around your site</strong></td>
-    <td width="33%" align="center"><a href="assets/readme/hero-slide-3.jpg"><img src="assets/readme/hero-slide-3.jpg" alt="Third starter slide concept with an evening solar rooftop" width="100%"></a><br><strong>03 / From plan to power</strong></td>
+    <td width="33%" align="center"><a href="docs/previews/admin/live-slide-1.webp"><img src="docs/previews/admin/live-slide-1.webp" alt="Live WordPress slide one showing a commercial solar rooftop" width="100%"></a><br><strong>01 / Commercial solar</strong></td>
+    <td width="33%" align="center"><a href="docs/previews/admin/live-slide-2.webp"><img src="docs/previews/admin/live-slide-2.webp" alt="Live WordPress slide two showing a logistics facility" width="100%"></a><br><strong>02 / Energy planning</strong></td>
+    <td width="33%" align="center"><a href="docs/previews/admin/live-slide-3.webp"><img src="docs/previews/admin/live-slide-3.webp" alt="Live WordPress slide three showing an evening solar rooftop" width="100%"></a><br><strong>03 / Project path</strong></td>
   </tr>
 </table>
 
@@ -84,6 +84,25 @@ The captures above document the repository's responsive HTML representation of t
 </table>
 
 The workspace keeps the slide strip, live canvas, selected element controls, and motion timeline together. Click a layer to edit it; hide a layer without deleting its copy. Desktop and mobile views update as settings change, and full-screen preview plays the draft slideshow before it is saved.
+
+### Inside the editor
+
+<table>
+  <tr>
+    <td width="50%" align="center"><a href="docs/previews/admin/hero-studio-slides.webp"><img src="docs/previews/admin/hero-studio-slides.webp" alt="Hero Studio slide list and editor controls" width="100%"></a><br><strong>Slide workspace</strong></td>
+    <td width="50%" align="center"><a href="docs/previews/admin/hero-studio-inspector.webp"><img src="docs/previews/admin/hero-studio-inspector.webp" alt="Hero Studio selected layer settings" width="100%"></a><br><strong>Layer inspector</strong></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="docs/previews/admin/hero-studio-timeline.webp"><img src="docs/previews/admin/hero-studio-timeline.webp" alt="Hero Studio motion timeline and timing controls" width="100%"></a><br><strong>Motion timeline</strong></td>
+    <td align="center"><a href="docs/previews/admin/hero-studio-video-controls.webp"><img src="docs/previews/admin/hero-studio-video-controls.webp" alt="Hero Studio image and video controls" width="100%"></a><br><strong>Image and video media</strong></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="docs/previews/admin/hero-studio-playback.webp"><img src="docs/previews/admin/hero-studio-playback.webp" alt="Hero Studio playback settings" width="100%"></a><br><strong>Playback</strong></td>
+    <td align="center"><a href="docs/previews/admin/hero-studio-design.webp"><img src="docs/previews/admin/hero-studio-design.webp" alt="Hero Studio design settings" width="100%"></a><br><strong>Hero design</strong></td>
+  </tr>
+</table>
+
+<p align="center"><small>Captured from the local WordPress Admin on October 30, 2026. Images are cropped for readability.</small></p>
 
 | Design area | Controls available now |
 | --- | --- |
@@ -102,9 +121,18 @@ Hero Studio is an actively developed part of Sunlectric. Future releases can exp
 
 ## Theme options
 
-<p align="center"><img src="assets/readme/theme-settings-map.svg" alt="Illustrated guide to Sunlectric typography, brand colors, header and menu, and site options" width="100%"></p>
+<p align="center"><a href="docs/previews/admin/customizer-overview.webp"><img src="docs/previews/admin/customizer-overview.webp" alt="Sunlectric settings in the WordPress Customizer" width="100%"></a></p>
 
-<p align="center"><small>Control map derived from the v1.10.1 theme settings. It is an illustration, not a WordPress Admin screenshot.</small></p>
+<p align="center"><small>Sunlectric settings in the local WordPress Customizer, captured October 30, 2026.</small></p>
+
+<table>
+  <tr>
+    <td width="25%" align="center"><a href="docs/previews/admin/customizer-header.webp"><img src="docs/previews/admin/customizer-header-panel.webp" alt="Header and menu settings" width="100%"></a><br><strong>Header and menu</strong></td>
+    <td width="25%" align="center"><a href="docs/previews/admin/customizer-colors.webp"><img src="docs/previews/admin/customizer-colors-panel.webp" alt="Brand color settings" width="100%"></a><br><strong>Brand colors</strong></td>
+    <td width="25%" align="center"><a href="docs/previews/admin/customizer-typography.webp"><img src="docs/previews/admin/customizer-typography-panel.webp" alt="Typography settings" width="100%"></a><br><strong>Typography</strong></td>
+    <td width="25%" align="center"><a href="docs/previews/admin/customizer-site-options.webp"><img src="docs/previews/admin/customizer-site-options-panel.webp" alt="Site layout and contact settings" width="100%"></a><br><strong>Site options</strong></td>
+  </tr>
+</table>
 
 | Area | Settings |
 | --- | --- |
