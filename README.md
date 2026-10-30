@@ -1,62 +1,63 @@
-<p align="center">
-  <img src="assets/case-study-banner.svg" alt="Sunlectric Solar WordPress theme showcase" width="100%">
-</p>
-
-<p align="center"><strong>COMMERCIAL SOLAR · WORDPRESS · VERSION 1.10.1</strong></p>
-
-<p align="center">
-  <a href="https://rawpowered.github.io/Sunlectric-Solar-WordPress-Showcase/">Case study</a> ·
-  <a href="demo.html">One-page preview</a> ·
-  <a href="demo-multipage.html">Multi-page preview</a> ·
-  <a href="https://github.com/RawPowered">Contact the developer</a>
-</p>
-
-<p align="center">
-  <a href="demo.html"><img src="docs/previews/desktop-fold.jpg" alt="Sunlectric commercial solar homepage, desktop first screen" width="100%"></a>
-</p>
-
-<p align="center"><small>Static design preview captured October 28, 2026. Hero Studio can replace this slide's copy and media.</small></p>
-
 # Sunlectric Solar WordPress
 
-A commercial solar WordPress theme by **Joseph Edwards (RawPowered)**. Sunlectric pairs a photographic homepage with a custom Hero Studio for managing slides, text, media, motion, and calls to action. The theme also includes responsive navigation, site-wide design controls, and one-page or multi-page presentation options.
+<p align="center"><img src="assets/readme/cover.jpg" alt="Sunlectric Solar WordPress case study cover with desktop and mobile previews" width="100%"></p>
 
-The charcoal, lime, and glass styling in the [case study](https://rawpowered.github.io/Sunlectric-Solar-WordPress-Showcase/) frames the work. The solar website uses its own navy, gold, orange, and blue identity.
+<p align="center"><strong>COMMERCIAL SOLAR &nbsp; / &nbsp; WORDPRESS &nbsp; / &nbsp; VERSION 1.10.1</strong></p>
 
-## Explore the design
+<p align="center">
+  <a href="https://rawpowered.github.io/Sunlectric-Solar-WordPress-Showcase/"><strong>Case study</strong></a> &nbsp; · &nbsp;
+  <a href="demo.html"><strong>One-page preview</strong></a> &nbsp; · &nbsp;
+  <a href="demo-multipage.html"><strong>Multi-page preview</strong></a> &nbsp; · &nbsp;
+  <a href="https://github.com/RawPowered"><strong>Contact</strong></a>
+</p>
 
-| View | What to inspect |
+<p align="center">A commercial solar WordPress theme by <strong>Joseph Edwards (RawPowered)</strong>. A photographic customer experience meets a custom visual studio for the homepage hero.</p>
+
+<table>
+  <tr>
+    <td width="33%" align="center"><strong>Visual hero editing</strong><br>Slides, media, text, buttons, and motion</td>
+    <td width="33%" align="center"><strong>Responsive presentation</strong><br>Desktop, mobile, one-page, and multi-page</td>
+    <td width="33%" align="center"><strong>Theme-wide controls</strong><br>Fonts, colors, logos, header, contact, and map</td>
+  </tr>
+</table>
+
+## See the site in motion
+
+<p align="center"><a href="demo.html"><img src="assets/readme/desktop-scroll.gif" alt="Animated scroll through the Sunlectric Solar desktop page" width="100%"></a></p>
+
+<p align="center"><small>Animated from the October 28, 2026 static HTML capture. Click to open the interactive page preview. The hosted WordPress lab uses different Hero Studio copy and slide settings.</small></p>
+
+## Explore the experience
+
+<table>
+  <tr>
+    <td width="66%" align="center"><a href="docs/previews/desktop.jpg"><img src="docs/previews/desktop-fold.jpg" alt="Desktop homepage first screen; open the full-page capture" width="100%"></a><br><strong>Desktop</strong> · <a href="docs/previews/desktop.jpg">Full-page capture</a></td>
+    <td width="34%" align="center"><a href="docs/previews/mobile.jpg"><img src="docs/previews/mobile-fold.jpg" alt="Mobile homepage first screen; open the full-page capture" width="100%"></a><br><strong>Mobile</strong> · <a href="docs/previews/mobile.jpg">Full-page capture</a></td>
+  </tr>
+</table>
+
+| Preview | What it shows |
 | --- | --- |
-| [One-page preview](demo.html) | Hero, services, project story, questions, and consultation path |
-| [Multi-page preview](demo-multipage.html) | Homepage with separate About Us and Contact Us pages |
+| [One-page solar site](demo.html) | Hero, services, project story, questions, and consultation path |
+| [Multi-page solar site](demo-multipage.html) | Homepage with separate About Us and Contact Us pages |
 | [About Us](about.html) | Company story and editorial page layout |
 | [Contact Us](contact.html) | Inquiry layout and optional OpenStreetMap placement |
-| [Hero Studio case study](https://rawpowered.github.io/Sunlectric-Solar-WordPress-Showcase/#studio) | Illustrated editor structure and timing controls |
 
-### Desktop and mobile
+<table>
+  <tr><td width="50%" align="center"><a href="docs/previews/about.jpg"><img src="docs/previews/about.jpg" alt="About Us page preview" width="100%"></a><br><strong>About Us</strong></td><td width="50%" align="center"><a href="docs/previews/contact.jpg"><img src="docs/previews/contact.jpg" alt="Contact Us page preview" width="100%"></a><br><strong>Contact Us</strong></td></tr>
+</table>
 
-<p align="center">
-  <a href="docs/previews/desktop.jpg"><img src="docs/previews/desktop-fold.jpg" alt="Sunlectric desktop homepage first screen. Open the full-page image." width="66%"></a>
-  <a href="docs/previews/mobile.jpg"><img src="docs/previews/mobile-fold.jpg" alt="Sunlectric mobile homepage first screen. Open the full-page image." width="29%"></a>
-</p>
+<details><summary><strong>View footer map options</strong></summary>
+<p align="center"><a href="docs/previews/footer-no-map.jpg"><img src="docs/previews/footer-no-map.jpg" alt="Standard footer" width="48%"></a> <a href="docs/previews/footer-with-map.jpg"><img src="docs/previews/footer-with-map.jpg" alt="Footer with OpenStreetMap" width="48%"></a></p>
+</details>
 
-<p align="center"><small>Click either image for the full-page static preview.</small></p>
-
-### Supporting pages and footer
-
-<p align="center">
-  <a href="docs/previews/about.jpg"><img src="docs/previews/about.jpg" alt="Sunlectric About Us page preview" width="48%"></a>
-  <a href="docs/previews/contact.jpg"><img src="docs/previews/contact.jpg" alt="Sunlectric Contact Us page preview" width="48%"></a>
-</p>
-
-<p align="center">
-  <a href="docs/previews/footer-no-map.jpg"><img src="docs/previews/footer-no-map.jpg" alt="Sunlectric standard footer" width="48%"></a>
-  <a href="docs/previews/footer-with-map.jpg"><img src="docs/previews/footer-with-map.jpg" alt="Sunlectric footer with OpenStreetMap" width="48%"></a>
-</p>
-
-These images document the repository's October 28 responsive HTML representation of the theme. The hosted lab currently uses different Hero Studio copy and slide settings. The [case study's Hero Studio graphic](https://rawpowered.github.io/Sunlectric-Solar-WordPress-Showcase/#studio) illustrates the editor layout; it is not a screenshot of WordPress Admin.
+The captures above document the repository's responsive HTML representation of the theme. The charcoal, lime, and glass framing belongs to this RawPowered case study; the solar website has its own navy, gold, orange, and blue identity.
 
 ## Hero Studio
+
+<p align="center"><img src="assets/readme/hero-studio.svg" alt="Illustrated Hero Studio editor with slide strip, live canvas, element controls, and timeline" width="100%"></p>
+
+<p align="center"><small>Editor layout illustration. This is not a WordPress Admin screenshot.</small></p>
 
 **Appearance → Hero Studio** manages the bundled WordPress homepage hero. The editor supports up to eight slides; three are enabled in the starter setup.
 

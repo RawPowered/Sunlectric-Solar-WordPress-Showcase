@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 770" role="img" aria-labelledby="title desc">
+<title id="title">Hero Studio editor structure</title><desc id="desc">Illustration of slide selection, live hero canvas, layer controls, and motion timeline.</desc>
+<defs>
+  <linearGradient id="shell" x2="1" y2="1"><stop stop-color="#171e20"/><stop offset="1" stop-color="#080c0e"/></linearGradient>
+  <linearGradient id="roof" x2="1" y2="1"><stop stop-color="#142f47"/><stop offset=".55" stop-color="#183b55"/><stop offset="1" stop-color="#091e2a"/></linearGradient>
+  <linearGradient id="glass" x2="1" y2="1"><stop stop-color="#27383c" stop-opacity=".95"/><stop offset="1" stop-color="#10181b" stop-opacity=".85"/></linearGradient>
+  <linearGradient id="bar" x2="1"><stop stop-color="#caff2c"/><stop offset="1" stop-color="#67b66e"/></linearGradient>
+</defs>
+<rect width="1400" height="770" rx="24" fill="#090d0f"/>
+<rect x="24" y="24" width="1352" height="722" rx="18" fill="url(#shell)" stroke="#708080" stroke-width="2"/>
+<path d="M24 80h1352" stroke="#3b5053"/>
+<circle cx="55" cy="52" r="7" fill="#b5c3c4"/><circle cx="80" cy="52" r="7" fill="#b5c3c4"/><circle cx="105" cy="52" r="7" fill="#b5c3c4"/>
+<text x="139" y="59" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#e9efec">SUNLECTRIC / HERO STUDIO</text>
+<text x="1090" y="58" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#caff2c" letter-spacing="2">EDITOR CONCEPT</text>
+<text x="47" y="116" font-family="Arial,sans-serif" font-size="14" fill="#9cafb0" letter-spacing="2">SLIDES</text>
+<g font-family="Arial,sans-serif" font-size="16" font-weight="700">
+ <rect x="46" y="132" width="142" height="64" rx="10" fill="#243229" stroke="#caff2c" stroke-width="2"/><text x="68" y="171" fill="#eaf5dd">01 / ACTIVE</text>
+ <rect x="201" y="132" width="142" height="64" rx="10" fill="#1b2528" stroke="#4b5d5e"/><text x="224" y="171" fill="#d0dcda">02 / IMAGE</text>
+ <rect x="356" y="132" width="142" height="64" rx="10" fill="#1b2528" stroke="#4b5d5e"/><text x="379" y="171" fill="#d0dcda">03 / VIDEO</text>
+ <rect x="511" y="132" width="104" height="64" rx="10" fill="#151e20" stroke="#4b5d5e" stroke-dasharray="5 5"/><text x="533" y="171" fill="#caff2c">+ ADD</text>
+</g>
+<text x="47" y="232" font-family="Arial,sans-serif" font-size="14" fill="#9cafb0" letter-spacing="2">LIVE CANVAS / DESKTOP</text>
+<rect x="46" y="247" width="835" height="347" rx="12" fill="url(#roof)" stroke="#71888b" stroke-width="2"/>
+<path d="M46 464l232-100 200 50 210-125 193 89v216H46z" fill="#20465a" opacity=".68"/>
+<path d="M46 525l199-67 220 72 170-75 246 56v83H46z" fill="#0d2736" opacity=".7"/>
+<g font-family="Arial,sans-serif"><text x="89" y="333" font-size="17" font-weight="700" letter-spacing="3" fill="#ffb53b">COMMERCIAL SOLAR</text><text x="88" y="402" font-size="48" font-weight="800" fill="#fff">Make your roof work</text><text x="88" y="455" font-size="48" font-weight="800" fill="#fff">for your business.</text><rect x="88" y="494" width="223" height="55" rx="5" fill="#fa9b25"/><text x="112" y="528" font-size="17" font-weight="700" fill="#10151a">GET A CONSULTATION</text></g>
+<rect x="80" y="354" width="681" height="112" rx="4" fill="none" stroke="#caff2c" stroke-width="2" stroke-dasharray="7 5"/>
+<rect x="733" y="341" width="122" height="28" rx="5" fill="#caff2c"/><text x="746" y="360" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#0b1110">HEADLINE</text>
+<rect x="901" y="247" width="449" height="347" rx="12" fill="url(#glass)" stroke="#657779"/>
+<text x="926" y="281" font-family="Arial,sans-serif" font-size="14" fill="#caff2c" font-weight="700" letter-spacing="2">ELEMENT INSPECTOR</text>
+<text x="926" y="318" font-family="Arial,sans-serif" font-size="27" fill="#f0f5f2" font-weight="700">Headline</text>
+<g font-family="Arial,sans-serif" font-size="16" fill="#c7d3d0">
+ <text x="926" y="358">Text</text><rect x="1018" y="337" width="305" height="34" rx="5" fill="#0d1518" stroke="#435559"/><text x="1030" y="360" fill="#eaf1ee">Make your roof work...</text>
+ <text x="926" y="411">Font</text><rect x="1018" y="389" width="305" height="34" rx="5" fill="#0d1518" stroke="#435559"/><text x="1030" y="412" fill="#eaf1ee">Theme heading ▾</text>
+ <text x="926" y="464">Size</text><rect x="1018" y="442" width="128" height="34" rx="5" fill="#0d1518" stroke="#435559"/><text x="1030" y="465" fill="#eaf1ee">64 px</text>
+ <text x="1170" y="464">Color</text><rect x="1228" y="442" width="95" height="34" rx="5" fill="#f2f5f2" stroke="#435559"/>
+ <text x="926" y="517">Entry motion</text><rect x="1062" y="495" width="261" height="34" rx="5" fill="#0d1518" stroke="#435559"/><text x="1073" y="518" fill="#eaf1ee">Rise + fade ▾</text>
+ <text x="926" y="570">Timing</text><rect x="1018" y="548" width="305" height="22" rx="5" fill="#263532"/><rect x="1018" y="548" width="194" height="22" rx="5" fill="url(#bar)"/>
+</g>
+<text x="47" y="630" font-family="Arial,sans-serif" font-size="14" fill="#9cafb0" letter-spacing="2">MOTION TIMELINE</text>
+<rect x="46" y="645" width="1304" height="75" rx="10" fill="#11191b" stroke="#43595c"/>
+<g font-family="Arial,sans-serif" font-size="15" fill="#b9c8c5"><text x="66" y="676">Background</text><text x="66" y="706">Headline</text></g>
+<rect x="205" y="662" width="1083" height="12" rx="6" fill="#35444a"/><rect x="205" y="662" width="700" height="12" rx="6" fill="#6f9597"/>
+<rect x="205" y="693" width="1083" height="12" rx="6" fill="#35444a"/><rect x="275" y="693" width="645" height="12" rx="6" fill="url(#bar)"/>
+<line x1="607" y1="651" x2="607" y2="714" stroke="#fff" stroke-width="2"/>
+</svg>
