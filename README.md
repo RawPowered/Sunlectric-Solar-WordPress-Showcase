@@ -110,9 +110,9 @@ The workspace keeps the slide strip, live canvas, selected element controls, and
 | **Copy and actions** | Edit the eyebrow, headline, supporting text, and two buttons for each slide. Set each button's label and destination; choose button shape, size, font, and colors in the shared hero design controls. |
 | **Type and color** | Inherit the site's fonts, use a hero font, or choose a slide font. Adjust headline scale for desktop and mobile, weight, line height, letter spacing, and text color. Set the hero's text alignment. |
 | **Overlays** | Choose gradient, even tint, vignette, or no overlay. Set overlay color and opacity to keep text readable over different imagery. |
-| **Transitions** | Crossfade, lateral slide, rise, soft zoom, curtain reveal, or instant, with a 300–2000 ms transition duration. |
+| **Transitions** | Crossfade, lateral slide, rise, soft zoom, curtain reveal, or instant, with a 300-2000 ms transition duration. |
 | **Layer animation** | Give the background and text layers their own entry and exit styles, start times, and durations. Drag timeline bars or enter values; reset the stagger when needed. |
-| **Playback** | Run a slideshow or one static image or video. Set a 4–12 second slide hold, autoplay, numbered bars/dots/arrows, a pause control, and subtle desktop parallax. |
+| **Playback** | Run a slideshow or one static image or video. Set a 4-12 second slide hold, autoplay, numbered bars/dots/arrows, a pause control, and subtle desktop parallax. |
 | **Preview and publish** | Review unsaved changes on desktop, mobile, or in a full-screen modal; save when the composition is ready. |
 
 The first slide is server-rendered in HTML, so the headline and initial visual remain available before JavaScript runs. Reduced-motion preferences suppress decorative motion and automatic playback. The live editor is part of this theme; an Elementor-built homepage manages its own hero separately.
