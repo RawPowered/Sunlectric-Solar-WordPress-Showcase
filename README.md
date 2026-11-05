@@ -164,11 +164,11 @@ The starter layouts run with WordPress core. Free Elementor is optional for a se
 
 **Hosted check, October 30, 2026:** Version 1.10.1 was installed on a WordPress 7.1.4 lab. The full-width Hero Studio, slide strip, element inspector, timeline, desktop and mobile previews, and three-slide homepage rendered successfully. The browser reported no console errors. The lab URL remains internal to testing.
 
-## Gumroad · launch in preparation
+## Get it on Gumroad
 
-- [Sunlectric Solar WordPress theme on Gumroad](https://spaceodin.gumroad.com/l/sunlectric-solar-wordpress-theme)
+[Buy Sunlectric Solar WordPress theme — $49](https://spaceodin.gumroad.com/l/sunlectric-solar-wordpress-theme)
 
-These product listings are being prepared and are not yet open for purchase. Gumroad may not display an unpublished listing publicly until launch. The project status and verification limits documented in this showcase still apply.
+Available as a self-hosted WordPress download with installation notes. Review the product page for included files, requirements, and current scope. The verification limits documented in this showcase still apply.
 
 ## Availability
 
